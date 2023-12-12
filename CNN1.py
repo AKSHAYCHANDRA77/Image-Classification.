@@ -153,5 +153,5 @@ def make_prediction(img,model):
     predicted_class_name = class_name[predicted_class]
     return predicted_class_name
 
-print(make_prediction('Dataset_Celebrities\cropped\maria_sharapova\maria_sharapova14.png',cnn_model))
+print(make_prediction(r'F:\Study\DUK\3rd Semester\Deep Learning\Assignment image classification\Dataset_Celebrities\cropped\virat_kohli\virat_kohli19.png',cnn_model))
 print('--------------------------------------------------------')
